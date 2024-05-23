@@ -1,1 +1,7 @@
 ## Anter Aja Clone
+
+#
+
+#
+
+#

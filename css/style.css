@@ -3,7 +3,10 @@
     --second-text-color: #b30068;
   }
   
-  
+  .navbar-toggler {
+    border: none;
+  }
+
   .container-list-card {
     display: flex;
     flex-wrap: wrap;

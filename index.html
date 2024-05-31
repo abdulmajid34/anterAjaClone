@@ -22,6 +22,8 @@
     ></script>
     <link rel="icon" href="../image/spaceegg.jpg" type="image/jpg" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Developer SpaceEgg | AnterAja</title>
   </head>
   <body>
@@ -111,15 +113,15 @@
       <img
         src="../image/img-jumbotron.jpg"
         class="img-fluid img-jumbotron"
-        style="width: 100%"
+        style="width: 100%; height: 800px; object-fit: contain;"
         alt="image-jumbotron"
       />
     </section>
 
-    <section class="pt-5 pb-5">
+    <section class="pt-3 pb-5">
       <div class="container">
         <div class="row">
-          <div class="col-12">
+          <div class="col-12" data-aos="fade-down" data-aos-duration="2000">
             <div
               id="carouselExampleControls"
               class="carousel slide content-web"
@@ -253,7 +255,9 @@
 
     <!-- LIST CARD -->
     <div class="container-list-card">
-      <div class="list-card">
+      <div class="list-card" data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
         <div class="list-card-body">
           <img src="..//image/cta-1.jpg" class="card-img" alt="Gambar 1" />
           <h5 class="list-title">
@@ -263,7 +267,9 @@
         </div>
       </div>
 
-      <div class="list-card">
+      <div class="list-card" data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
         <div class="list-card-body">
           <img src="..//image/cta-2.jpg" class="card-img" alt="Gambar 2" />
           <h5 class="list-title">
@@ -273,7 +279,9 @@
         </div>
       </div>
 
-      <div class="list-card">
+      <div class="list-card" data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
         <div class="list-card-body">
           <img src="..//image/cta-2.jpg" class="card-img" alt="Gambar 2" />
           <h5 class="list-title">
@@ -283,7 +291,11 @@
         </div>
       </div>
 
-      <div class="list-card">
+      <div 
+        class="list-card " 
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
         <div class="list-card-body">
           <img src="..//image/cta-1.jpg" class="card-img" alt="Gambar 1" />
           <h5 class="list-title">
@@ -297,8 +309,8 @@
     <section>
       <div class="my-4">
         <span class="text-center">
-          <h1 class=" title">Tumbuhkan Bisnismu Bersama Anteraja</h1>
-          <p class="paragraf">Solusi bisnismu untuk urusan pengiriman berbagai macam kebutuhan melalui ekosistem terbaik kami.</p>
+          <h1 data-aos="fade-down" data-aos-duration="2000" class=" title">Tumbuhkan Bisnismu Bersama Anteraja</h1>
+          <p data-aos="fade-up" data-aos-duration="2000" class="paragraf">Solusi bisnismu untuk urusan pengiriman berbagai macam kebutuhan melalui ekosistem terbaik kami.</p>
         </span>
       </div>
     </section>
@@ -308,7 +320,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-md-4">
-            <div class="card my-4" style="width: 100%; border-radius: 30px; height: 90vh">
+            <div class="card my-4" data-aos="fade-right" data-aos-duration="2000" style="width: 100%; border-radius: 30px; height: 90vh">
               <img src="../image/pwu-socio.png" class="card-img-top" alt="socio_image" style="width: 200px; margin: 2rem auto">
               <div class="card-body">
                 <h3 class="card-title text-center title">Socio</h3>
@@ -327,7 +339,7 @@
             </div>
           </div>
           <div class="col-12 col-md-4">
-            <div class="card my-4" style="width: 100%; border-radius: 30px; height: 90vh">
+            <div class="card my-4" data-aos="fade-left" data-aos-duration="2000" style="width: 100%; border-radius: 30px; height: 90vh">
               <img src="../image/pwu-corporate.png" class="card-img-top" alt="coorporate_image" style="width: 200px; margin: 2rem auto">
               <div class="card-body">
                 <h3 class="card-title text-center title mb-4">Corporate</h3>
@@ -353,7 +365,7 @@
     <section>
       <div class="container my-4">
         <div class="row">
-          <div class="col-12 col-md-3">
+          <div class="col-12 col-md-3" data-aos="fade-right" data-aos-duration="2000">
             <a class="navbar-brand" href="#"
             ><img
               src="../image/logo-anteraja_2.png"
@@ -392,7 +404,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-3">
+          <div class="col-12 col-md-3" data-aos="fade-right" data-aos-duration="2000"3>
             <div class="d-flex flex-column">
               <span class="paragraf mb-3"><strong>Informasi</strong></span>
               <span class="paragraf mb-3">Download Aplikasi</span>
@@ -405,7 +417,7 @@
               <span class="paragraf mb-3">Anteraja Whistleblowing System</span>
             </div>
           </div>
-          <div class="col-12 col-md-3">
+          <div class="col-12 col-md-3" data-aos="fade-left" data-aos-duration="2000">
             <div class="d-flex flex-column">
               <span class="paragraf mb-3"><strong>Layanan</strong></span>
               <span class="paragraf mb-3">Solusi Pengiriman</span>
@@ -413,7 +425,7 @@
               <span class="paragraf mb-3">Drop-Off</span>
             </div>
           </div>
-          <div class="col-12 col-md-3">
+          <div class="col-12 col-md-3" data-aos="fade-left" data-aos-duration="2000">
             <div class="d-flex flex-column">
               <span class="paragraf mb-3"><strong>Layanan</strong></span>
               <div class="row justify-content-start">
@@ -438,9 +450,13 @@
 
       <footer>
         <div style="margin: 3rem 0;">
-          <p class="text-center" style="font-size: 12px; font-weight: 400; color: #21212199">Copyright &copy 2024 PT. Tri Adi Bersama. All rights reserved | Developer SpaceEgg</p>
+          <p data-aos="fade-up" data-aos-duration="2000" class="text-center" style="font-size: 12px; font-weight: 400; color: #21212199">Copyright &copy 2024 PT. Tri Adi Bersama. All rights reserved | Developer SpaceEgg</p>
         </div>
       </footer>
     </section>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

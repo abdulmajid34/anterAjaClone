@@ -2,6 +2,17 @@
     --text-color: #e40085;
     --second-text-color: #b30068;
   }
+
+  /* CSS CAROUSEL */
+
+/* Additional styling for the carousel buttons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #000;
+  border-radius: 50%;
+  padding: 10px;
+}
+  
   
   .navbar-toggler {
     border: none;
@@ -58,3 +69,15 @@
     color: var(--text-color);
   }
   
+/* RESPONSIVE MOBILE DEVICE */
+/* @media (max-width: 600px) {
+  .img-jumbotron {
+    margin-top: 30rem;
+  }
+} */
+
+@media only screen and (max-width: 600px) {
+  .img-jumbotron {
+    margin-top: 5rem;
+  }
+}

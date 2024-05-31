@@ -87,7 +87,7 @@
 .title {
   color: #ed0677;
   font-weight: 700;
-  font-size: 2.5rem;
+  /* font-size: 2.5rem; */
 }
 .paragraf {
   font-size: 1rem;
@@ -95,6 +95,18 @@
   line-height: 1.7;
   color: #21212199;
 }
+.class-btn {
+  background: #ed0677;
+  color: #fff;
+  font-weight: 700;
+  width: 200px;
+  border-radius: 30px;
+}
+.content-btn {
+  margin-top: 4rem;
+}
+
+/* css list card two column */
 
 @media only screen and (max-width: 600px) {
   .img-jumbotron {
@@ -102,5 +114,8 @@
   }
   .list-card {
     width: 25rem;
+  }
+  .content-btn {
+    margin: 0;
   }
 }
